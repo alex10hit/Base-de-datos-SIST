@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "seguridad", "seguridad\seguridad.ssmssqlproj", "{E29059D2-F999-4F73-801D-70B3F7803818}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "catalogos", "catalogos\catalogos.ssmssqlproj", "{C1F91490-7CA0-417A-BFBF-274299B4CE14}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "inventario", "inventario\inventario.ssmssqlproj", "{C009B95D-5677-476F-AA17-0B7A7035626B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "personal", "personal\personal.ssmssqlproj", "{401A27DC-3248-433C-ABDC-1DF4EA7E839B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E2CB42C-3E3C-4FE1-9970-58A33FA4C6AB}.Default|Default.ActiveCfg = Default
+		{E29059D2-F999-4F73-801D-70B3F7803818}.Default|Default.ActiveCfg = Default
+		{C1F91490-7CA0-417A-BFBF-274299B4CE14}.Default|Default.ActiveCfg = Default
+		{C009B95D-5677-476F-AA17-0B7A7035626B}.Default|Default.ActiveCfg = Default
+		{401A27DC-3248-433C-ABDC-1DF4EA7E839B}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECA874A4-3499-467E-A0B2-10A60F8C7488}
+	EndGlobalSection
+EndGlobal
