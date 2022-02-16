@@ -5,13 +5,22 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_SEG_USUARIOS", "SP_SEG_USUARIOS\SP_SEG_USUARIOS.ssmssqlproj", "{53E5704E-8B9C-4B4A-9713-65D4AA8328CD}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_CAT_PLAZAS", "SP_CAT_PLAZAS\SP_CAT_PLAZAS.ssmssqlproj", "{7B37D492-FB15-4334-9DE4-C3665A75FB4A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CAT_DEPARTAMENTOS_SP", "CAT_DEPARTAMENTOS_SP\CAT_DEPARTAMENTOS_SP.ssmssqlproj", "{93A0E117-A536-45B7-AF96-941E593D7B50}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_SEG_ROLES", "SP_SEG_ROLES\SP_SEG_ROLES.ssmssqlproj", "{EEDF1903-2E6B-49BA-9E84-B7F1572599B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94E6AB41-2EC0-4616-BAFA-D10EB2F4C320}.Default|Default.ActiveCfg = Default
 		{53E5704E-8B9C-4B4A-9713-65D4AA8328CD}.Default|Default.ActiveCfg = Default
+		{BD467F69-6CCD-41CB-AC32-3571D1A39407}.Default|Default.ActiveCfg = Default
+		{7B37D492-FB15-4334-9DE4-C3665A75FB4A}.Default|Default.ActiveCfg = Default
+		{93A0E117-A536-45B7-AF96-941E593D7B50}.Default|Default.ActiveCfg = Default
+		{EEDF1903-2E6B-49BA-9E84-B7F1572599B9}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

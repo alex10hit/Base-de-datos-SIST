@@ -1,15 +1,15 @@
-CREATE OR ALTER procedure seg_roles_isp
+CREATE OR ALTER procedure categoria_isp
 @folio varchar(100)='',
-@descripcion varchar(100)='',
-@clave varchar(5)='',
+@area varchar(100)='',
+@categoria varchar(100)='',
 @usuarioCreacion int=0,
 @usuarioModificacion int=0
 as
 begin
-insert into seg_roles(
+insert into categoria(
 folio,
-descripcion,
-clave,
+area,
+categoria,
 fechaCreacion,
 fechaModificacion,
 usuarioCreacion,
@@ -17,8 +17,8 @@ usuarioModificacion
 )
 values(
 @folio,
-@descripcion,
-@clave,
+@area,
+@categoria,
 getdate(),
 getdate(),
 @usuarioCreacion,
@@ -27,36 +27,36 @@ getdate(),
 end
 go
 
-CREATE OR ALTER procedure seg_roles_usp
+CREATE OR ALTER procedure categoria_usp
 @id int=0,
 @folio varchar(100)='',
-@descripcion varchar(100)='',
-@clave varchar(5)='',
+@area varchar(100)='',
+@categoria varchar(100)='',
 @usuarioModificacion int=0
 as
 begin
-update seg_roles set
+update categoria set
 folio=@folio,
-descripcion=@descripcion,
-clave=@clave,
+area=@area,
+categoria=@categoria,
 usuarioModificacion=@usuarioModificacion,
 fechaModificacion=getdate()
 where id=@id
 end
 go
 
-CREATE OR ALTER procedure seg_roles_dsp
+CREATE OR ALTER procedure categoria_dsp
 @id int=0
 as
 begin
-delete from seg_roles where id=@id
+delete from categoria where id=@id
 end
 go
 
-CREATE OR ALTER procedure seg_roles_ssp
+CREATE OR ALTER procedure categoria_ssp
 @id int=0
 as
 begin
-select *from seg_roles where id=@id
+select *from categoria where id=@id
 end
 go
