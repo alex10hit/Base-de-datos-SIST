@@ -1,4 +1,4 @@
-use SIST
+
 CREATE OR ALTER procedure seg_usuarios_isp
 @folio varchar(100)='',
 @claveUsuario varchar(200)='',
@@ -35,7 +35,6 @@ usuarioModificacion,
 rolid,
 departamentoid,
 plazaid
-
 )
 values (
 @folio,
@@ -75,7 +74,6 @@ CREATE OR ALTER procedure seg_usuarios_usp
 @estatus bit=0,
 @nombreCorto varchar(400),
 @email varchar(500) = '',
-@usuarioCreacion int=0,
 @usuarioModificacion int=0,
 @rolid int=0,
 @departamentoid int =0,
@@ -97,7 +95,7 @@ fechaModificacion=getdate(),
 rolId=@rolId,
 departamentoId=@departamentoId,
 plazaid=@plazaid
-where id=@id;
+where id=@id
 end
 go
 
