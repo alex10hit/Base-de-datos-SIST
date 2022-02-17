@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SP_INVENTARIO">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SP_TIPO_INVENTARIO">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="LAPTOP-1TLGFGOK:LAPTOP-1TLGFGOK\ALEJANDRO">
-          <Created>2022-02-16T22:03:21.1466801-06:00</Created>
+          <Created>2022-02-16T22:19:43.5478038-06:00</Created>
           <Type>SQL</Type>
           <Server>LAPTOP-1TLGFGOK</Server>
           <UserName />
@@ -19,11 +19,11 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="inventario_sp.sql">
+        <FileNode Name="tipo_inventario_sp.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1TLGFGOK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-1TLGFGOK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>inventario_sp.sql</FullPath>
+          <FullPath>tipo_inventario_sp.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

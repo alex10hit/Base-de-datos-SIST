@@ -23,13 +23,14 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_ESTATUS_INVENTARIO", "SP
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_INVENTARIO", "SP_INVENTARIO\SP_INVENTARIO.ssmssqlproj", "{3386215F-D054-49C2-8B80-DF39CFBFCCCA}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_TIPO_INVENTARIO", "SP_TIPO_INVENTARIO\SP_TIPO_INVENTARIO.ssmssqlproj", "{77720EEF-3680-4910-8EED-DEED57E6A4C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{53E5704E-8B9C-4B4A-9713-65D4AA8328CD}.Default|Default.ActiveCfg = Default
-		{BD467F69-6CCD-41CB-AC32-3571D1A39407}.Default|Default.ActiveCfg = Default
 		{7B37D492-FB15-4334-9DE4-C3665A75FB4A}.Default|Default.ActiveCfg = Default
 		{EEDF1903-2E6B-49BA-9E84-B7F1572599B9}.Default|Default.ActiveCfg = Default
 		{EEE30945-3093-416C-9046-246C9E0C04C6}.Default|Default.ActiveCfg = Default
@@ -39,6 +40,8 @@ Global
 		{2EC1708D-DD88-4E6C-9211-B63AD06DA320}.Default|Default.ActiveCfg = Default
 		{22F6AA2C-676C-435C-B6D6-B46582F35654}.Default|Default.ActiveCfg = Default
 		{3386215F-D054-49C2-8B80-DF39CFBFCCCA}.Default|Default.ActiveCfg = Default
+		{8CF15F4D-E0CB-44CB-A722-360794B4F3E2}.Default|Default.ActiveCfg = Default
+		{77720EEF-3680-4910-8EED-DEED57E6A4C6}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
