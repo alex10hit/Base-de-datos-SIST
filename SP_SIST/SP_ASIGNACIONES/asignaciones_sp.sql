@@ -16,10 +16,10 @@ acuse,
 fecha_entrega,
 fecha_devolucion,
 observaciones,
-usuarioCreacion,
-usuarioModificacion,
 fecha_creacion,
 fecha_modificacion,
+usuarioCreacion,
+usuarioModificacion,
 id_inventario,
 id_personal
 )
@@ -29,10 +29,10 @@ values(
 @fecha_entrega,
 @fecha_devolucion,
 @observaciones,
+getdate(),
+getdate(),
 @usuarioCreacion,
 @usuarioModificacion,
-getdate(),
-getdate(),
 @id_inventario,
 @id_personal
 )
@@ -58,8 +58,8 @@ acuse=@acuse,
 fecha_entrega=@fecha_entrega,
 fecha_devolucion=@fecha_devolucion,
 observaciones=@observaciones,
-usuarioModificacion=@usuarioModificacion,
 fecha_modificacion=getdate(),
+usuarioModificacion=@usuarioModificacion,
 id_inventario=@id_inventario,
 id_personal=@id_personal
 where id=@id
